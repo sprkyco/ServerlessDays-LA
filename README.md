@@ -1,2 +1,2 @@
-# London
-ServerlessDays London Website
+# Seattle
+ServerlessDays Seattle Website
