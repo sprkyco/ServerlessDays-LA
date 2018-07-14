@@ -1,14 +1,17 @@
 {
   "name": "london",
   "version": "1.0.0",
-  "description": "ServerlessDays London Website",
+  "description": "ServerlessDays Seattle Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ServerlessDays/London.git"
+    "url": "git+https://github.com/mweagle/ServerlessDays-Seattle.git"
   },
   "keywords": [
     "serverless",
@@ -18,19 +21,20 @@
   "author": "A Stanley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ServerlessDays/London/issues"
+    "url": "https://github.com/mweagle/ServerlessDays-Seattle/issues"
   },
-  "homepage": "https://github.com/ServerlessDays/London#readme",
-  "devDependencies": {
-    "browser-sync": "^2.23.3",
-    "connect-history-api-fallback": "^1.5.0",
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-file-include": "^2.0.1",
-    "gulp-htmlmin": "^4.0.0",
-    "gulp-minify-inline": "^1.0.0",
-    "gulp-plumber": "^1.2.0",
-    "gulp-uglify": "^3.0.0",
-    "pump": "^3.0.0"
+  "homepage": "https://github.com/mweagle/ServerlessDays-Seattle#readme",
+  "private": true,
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-google-maps": "^9.4.5",
+    "react-materialize": "^2.2.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-hash-link": "^1.2.0",
+    "react-scripts": "1.1.4",
+    "react-scrollable-anchor": "^0.6.1",
+    "react-scrollchor": "^5.1.0"
   }
 }
