@@ -1,5 +1,5 @@
-/* ServerlessDays logo colors: 
-#0BB9A7
+/* ServerlessDays logo colors:
+#2072B2
 #322835
 font-family: 'Roboto Mono', monospace;
  */
@@ -39,7 +39,7 @@ main ul li {
 main ul li:before {
   font-family: 'Material Icons';
   content: '\e86f';
-  color: #0BB9A7;
+  color: #2072B2;
   display: inline;
   margin-right: 10px;
 }
@@ -57,7 +57,7 @@ nav {
 }
 
 a {
-  color: #0BB9A7;
+  color: #2072B2;
 }
 
 .trans {
@@ -111,7 +111,7 @@ a {
 /* image styles */
 
 .grad-bg {
-  background: linear-gradient(to bottom right, #0BB9A7, #322835);
+  background: linear-gradient(to bottom right, #2072B2, #322835);
 }
 
 .not-wide {
@@ -191,7 +191,7 @@ a {
 
 /* Footer styling */
 footer {
-  background: linear-gradient(to bottom right, #0BB9A7, #322835) !important;
+  background: linear-gradient(to bottom right, #2072B2, #322835) !important;
 }
 
 .copyrights {
