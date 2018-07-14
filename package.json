@@ -23,7 +23,6 @@
   "bugs": {
     "url": "https://github.com/mweagle/ServerlessDays-Seattle/issues"
   },
-  "homepage": "https://github.com/mweagle/ServerlessDays-Seattle#readme",
   "private": true,
   "dependencies": {
     "materialize-css": "^1.0.0-rc.1",
