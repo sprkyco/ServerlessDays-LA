@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Row, Col} from 'react-materialize';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import Map from './Map';
+import Tickets from './Tickets';
 
 class Home extends Component {
   render () {
@@ -39,6 +40,7 @@ class Home extends Component {
             </div>
             <div className='space' />
           </div>
+          <Tickets />
           <div className='container'>
             <h2 className='center-align'>Join us in Seattle!</h2>
             <p>ServerlessDays Seattle will take place at <a href='https://www.mccawhall.com/plan-your-event/event-spaces/nesholm-family-lecture-hall' target='_blank' rel='noopener noreferrer'>Nesholm Family Lecture Hall</a> in downtown Seattle on Thursday, October 4th, 2018.</p>

@@ -9,6 +9,7 @@ import Location from './Location';
 import Speakers from './Speakers';
 import Sponsors from './Sponsors';
 import Schedule from './Schedule';
+import Tickets from './Tickets';
 import Modal from './Modal';
 
 // Location, Schedule, and Workshop components will be used in the future and can be commented out for now here and in the navbar
@@ -30,6 +31,7 @@ class App extends Component {
                 <Route path='/speakers' component={Speakers} />
                 <Route path='/sponsors' component={Sponsors} />
                 <Route path='/schedule' component={Schedule} />
+                <Route path='/tickets' component={Tickets} />
                 {/* 404 route below */}
                 <Route render={function () {
                   return (
