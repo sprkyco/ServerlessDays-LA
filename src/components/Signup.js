@@ -54,7 +54,7 @@ class Signup extends Component {
   render() {
     return (
       <div>
-        <h4 className='center-align'>Tickets soon!</h4>
+        <h4 className='center-align'>Buy Tickets</h4>
         <div className='space-foot' />
         <p>{this.state.p_message}</p>
         {/* only show form if form hasn't been submitted */}
