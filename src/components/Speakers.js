@@ -9,7 +9,7 @@ class Speakers extends Component {
           <h4>Become a speaker!</h4>
           <p>If you are interested in serverless technology and have a story to tell, we would be very happy to give you the opportunity to speak in front of an audience eager to hear your tales.</p>
           <p>It doesn't matter if you're just starting out or if you are already an experienced, battle-hardened cloud guru. We want you to speak!</p>
-          <p>We will make ServerlessDays Seattle an inclusive conference welcoming speakers from diverse backgrounds.</p>
+          <p>We will make ServerlessDays Los Angeles an inclusive conference welcoming speakers from diverse backgrounds.</p>
           <div className='center-align'>
             <a className='btn-large top-marg' href='https://www.papercall.io/https://www.papercall.io/serverless-days-sea' target='_blank' rel='noopener noreferrer'>Submit your proposal</a>
           </div>
