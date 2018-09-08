@@ -8,8 +8,8 @@ function Foot () {
     <footer>
       <Footer copyrights={
         <div>
-          © 2018 Serverless Days Seattle &nbsp;
-          <a href="https://twitter.com/serverlessSEA" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+          © 2018 Serverless Days Los Angeles &nbsp;
+          <a href="https://twitter.com/https://twitter.com/serverlessla" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
         </div>
       }
         links={
@@ -22,7 +22,7 @@ function Foot () {
               <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='grey-text text-lighten-3' to='/speakers'>Speakers</Link></Scrollchor></li>
               <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='grey-text text-lighten-3' to='/schedule'>Schedule</Link></Scrollchor></li>
               <li><Link className='grey-text text-lighten-3' to='/about#coc'>Code of Conduct</Link></li>
-              <li><a href="https://twitter.com/serverlessSEA" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+              <li><a href="https://twitter.com/serverlessla" target="_blank" rel="noopener noreferrer">Twitter</a></li>
               <li><Scrollchor animate={{offset: -100, duration: 500}} to='#veryTop'>Back to top</Scrollchor></li>
             </ul>
           </div>
@@ -31,9 +31,9 @@ function Foot () {
       >
         <div className='space-foot hide-on-med-and-down' />
         <div className='small-space hide-on-med-and-up' />
-        <h5 className='white-text left-align normal'>ServerlessDays Seattle</h5>
-        <p className='grey-text text-lighten-4 left-align'>October 4th, 2018
-        <br />Nesholm Family Lecture Hall at Marion Oliver McCaw Hall<br />321 Mercer St <br />Seattle, WA 98109</p>
+        <h5 className='white-text left-align normal'>ServerlessDays Los Angeles</h5>
+        <p className='grey-text text-lighten-4 left-align'>February 2019
+        <br />TBD<br />TBD<br />Los Angeles, CA</p>
       </Footer>
     </footer>
   );

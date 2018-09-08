@@ -6,18 +6,18 @@ class Location extends Component {
     return (
       <div>
         <div className='container' id='top'>
-          <h2 className='center-align'>Join us in Seattle!</h2>
+          <h2 className='center-align'>Join us in Los Angeles!</h2>
         </div>
-        <img src={'/media/seattle-870282_1920.jpg'} alt={'Seattle Skyline'} className='full-img' />
+        <img src={'/media/los-angeles-1840764_1920.jpg'} alt={'Los Angeles Skyline'} className='full-img' />
         <div className='container'>
           <div className='container'>
             <h2 className='center-align' id='venue'>Venue</h2>
-            <p>ServerlessDays Seattle will take place at <a href='https://www.pcs.org/' target='_blank' rel='noopener noreferrer'>McCaw Hall</a> in downtown Seattle, Washington.</p>
-            <p>Nesholm Family Lecture Hall at McCaw Hall <br />321 Mercer Street <br />Seattle, WA 98109</p>
+            <p>ServerlessDays Los Angeles will take place at <a href='https://serverlessdays.la/' target='_blank' rel='noopener noreferrer'>TBD</a> somewhere in Los Angeles.</p>
+            <p>Some Venue <br />Some Street <br />Los Angeles, CA ZIP</p>
             <div className='small-space' />
           </div>
         </div>
-        <img src={'/media/Lecture-Hall-1-Gallery-2017-c623946fe5.jpg'} alt={'Nesholm Family Lecture Hall'} className='full-img' />
+        <img src={'/media/venue.jpg'} alt={'Venue Picture Alt'} className='full-img' />
         <div className='small-space' />
         <h2 className='center-align' id='map'>Map</h2>
         <Map />

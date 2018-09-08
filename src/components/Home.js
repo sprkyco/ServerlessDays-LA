@@ -10,7 +10,7 @@ class Home extends Component {
       <div>
         <div className='container' id='top'>
           <ScrollableAnchor id={'home'}>
-            <h2 className='center-align shrinkme'>ServerlessDays in SEA</h2>
+            <h2 className='center-align shrinkme'>ServerlessDays in LA</h2>
           </ScrollableAnchor>
           <Row>
             <Col s={12} m={4} l={4} className='center-align top-marg'>
@@ -34,20 +34,20 @@ class Home extends Component {
             <h2 className='center-align'>Call for papers</h2>
             <p>If you are interested in serverless technology and have a story to tell, we would be very happy to give you the opportunity to speak in front of an audience eager to hear your tales.</p>
             <p>It doesn't matter if you're just starting out or if you are already an experienced, battle-hardened cloud guru. We want you to speak!</p>
-            <p>We aim to make ServerlessDays Seattle an inclusive conference welcoming speakers from diverse backgrounds.</p>
+            <p>We aim to make ServerlessDays Los Angeles an inclusive conference welcoming speakers from diverse backgrounds.</p>
             <div className='center-align'>
-              <a className='btn-large top-marg' href='papercall.io/serverless-days-sea' target='_blank' rel='noopener noreferrer'>Submit your proposal</a>
+              <a className='btn-large top-marg' href='papercall.io/serverlessdaysla' target='_blank' rel='noopener noreferrer'>Submit your proposal</a>
             </div>
             <div className='space' />
           </div>
           <Tickets />
           <div className='container'>
-            <h2 className='center-align'>Join us in Seattle!</h2>
-            <p>ServerlessDays Seattle will take place at <a href='https://www.mccawhall.com/plan-your-event/event-spaces/nesholm-family-lecture-hall' target='_blank' rel='noopener noreferrer'>Nesholm Family Lecture Hall</a> in downtown Seattle on Thursday, October 4th, 2018.</p>
-            <p>Nesholm Family Lecture Hall
-              <br />Marion Oliver McCaw Hall
-              <br />321 Mercer St
-              <br />Seattle, WA 98109</p>
+            <h2 className='center-align'>Join us in Los Angeles!</h2>
+            <p>ServerlessDays Los Angeles will take place at <a href='https://serverlessdays.la' target='_blank' rel='noopener noreferrer'>TBD</a>in February 2019.</p>
+            <p>A hopefully great venue
+              <br />Somewhere
+              <br />TBD
+              <br />Los Angeles, CA</p>
             <div className='space' />
           </div>
         </div>
