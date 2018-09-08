@@ -11,7 +11,7 @@ class Speakers extends Component {
           <p>It doesn't matter if you're just starting out or if you are already an experienced, battle-hardened cloud guru. We want you to speak!</p>
           <p>We will make ServerlessDays Los Angeles an inclusive conference welcoming speakers from diverse backgrounds.</p>
           <div className='center-align'>
-            <a className='btn-large top-marg' href='https://www.papercall.io/https://www.papercall.io/serverless-days-sea' target='_blank' rel='noopener noreferrer'>Submit your proposal</a>
+            <a className='btn-large top-marg' href='https://www.papercall.io/serverlessdaysla' target='_blank' rel='noopener noreferrer'>Submit your proposal</a>
           </div>
           <div className='space-foot' />
           <p>Want to find out who's speaking as soon as they're announced? Sign up for our <a data-target='signupModal' className='modal-trigger'>mailing list</a> to be notified.</p>
