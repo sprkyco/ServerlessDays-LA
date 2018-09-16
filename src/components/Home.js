@@ -43,11 +43,10 @@ class Home extends Component {
           <Tickets />
           <div className='container'>
             <h2 className='center-align'>Join us in Los Angeles!</h2>
-            <p>ServerlessDays Los Angeles will take place at <a href='https://serverlessdays.la' target='_blank' rel='noopener noreferrer'>TBD</a>in February 2019.</p>
-            <p>A hopefully great venue
-              <br />Somewhere
-              <br />TBD
-              <br />Los Angeles, CA</p>
+            <p>ServerlessDays Los Angeles will take place at <a href='https://www.eventbrite.com/v/renberg-theatre-1685' target='_blank' rel='noopener noreferrer'>Renberg Theatre </a>in February 27, 2019.</p>
+            <p>Renberg Theatre
+              <br />1125 N McCadden Pl
+              <br />Los Angeles, CA 90028</p>
             <div className='space' />
           </div>
         </div>

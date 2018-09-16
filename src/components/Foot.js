@@ -32,8 +32,8 @@ function Foot () {
         <div className='space-foot hide-on-med-and-down' />
         <div className='small-space hide-on-med-and-up' />
         <h5 className='white-text left-align normal'>ServerlessDays Los Angeles</h5>
-        <p className='grey-text text-lighten-4 left-align'>February 2019
-        <br />TBD<br />TBD<br />Los Angeles, CA</p>
+        <p className='grey-text text-lighten-4 left-align'>February 27, 2019
+        <br />Renberg Theatre<br/>1125 N McCadden Pl<br />Los Angeles, CA 90028</p>
       </Footer>
     </footer>
   );

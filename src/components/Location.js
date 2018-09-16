@@ -12,7 +12,7 @@ class Location extends Component {
         <div className='container'>
           <div className='container'>
             <h2 className='center-align' id='venue'>Venue</h2>
-            <p>ServerlessDays Los Angeles will take place at <a href='https://serverlessdays.la/' target='_blank' rel='noopener noreferrer'>TBD</a> somewhere in Los Angeles.</p>
+            <p>ServerlessDays Los Angeles will take place at <a href='https://www.eventbrite.com/v/renberg-theatre-1685' target='_blank' rel='noopener noreferrer'>Renberg Theatre </a> somewhere in Los Angeles.</p>
             <p>Some Venue <br />Some Street <br />Los Angeles, CA ZIP</p>
             <div className='small-space' />
           </div>
