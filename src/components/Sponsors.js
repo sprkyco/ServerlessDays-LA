@@ -12,6 +12,11 @@ class Sponsors extends Component {
           <div className='center-align'>
             <a className='btn-large top-marg' href={'/media/ServerlessDays-LA-Prospectus.pdf'} target='_blank' rel='noopener noreferrer' download>Sponsor Prospectus</a>
           </div>
+          <Row>
+            <Col s={12} m={6} l={6} className='center-align top-marg'>
+              <img src='/media/mode2-logo.png' className='responsive-img not-wide'></img>
+            </Col>
+          </Row>
           <div className='space-foot' />
         </div>
       </div>

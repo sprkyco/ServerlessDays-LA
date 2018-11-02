@@ -3,6 +3,8 @@ import {Row, Col} from 'react-materialize';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import Map from './Map';
 import Tickets from './Tickets';
+import Sponsors from './Sponsors';
+
 
 class Home extends Component {
   render () {
@@ -12,6 +14,8 @@ class Home extends Component {
           <ScrollableAnchor id={'home'}>
             <h2 className='center-align shrinkme'>ServerlessDays in LA</h2>
           </ScrollableAnchor>
+          <Tickets />
+          <Sponsors />
           <Row>
             <Col s={12} m={4} l={4} className='center-align top-marg'>
               <img src={'/media/unicorn_mascot.png'} alt={'ServerlessDays mascot'} className='responsive-img not-wide' />
